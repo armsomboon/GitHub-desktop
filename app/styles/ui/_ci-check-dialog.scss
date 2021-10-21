@@ -1,0 +1,17 @@
+#pull-request-checks-failed {
+  .ci-check-run-dialog-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    height: 300px;
+    width: 100%;
+
+    .ci-check-run-list {
+      width: 30%;
+    }
+    .ci-check-list-item-logs {
+      width: 70%;
+    }
+  }
+}
